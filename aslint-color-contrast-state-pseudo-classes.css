@@ -4,6 +4,6 @@ h2 a {
 }
 
 h2 a:hover {
-  background: green;
-  color: cyan;
+  background: cyan;
+  color: lime;
 }
