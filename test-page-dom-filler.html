@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>DOM filler</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            for (let i = 10000; i > 2; i--) {
+                const div = document.createElement('div');
+                div.setAttribute('style', `margin-bottom: 1em; background: hsl(${Math.floor(Math.random() * 360)}, 70%, 80%);`);
+                div.innerHTML = `${i} bottles of beer on the wall, ${i} bottles of beer.<br/>If one of those bottles should happen to fall, ${i-1} bottles of beer on the wall...`;
+                document.body.appendChild(div);
+            }
+        </script>
+    </body>
+</html>
