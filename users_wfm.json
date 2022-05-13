@@ -1,0 +1,228 @@
+{
+    "users": [{
+            "roles": [{
+                    "name": "Admin",
+                    "uid": "2825562910065951761",
+                    "privileges": [{
+                            "name": "Privilege_ProviderEntity",
+                            "pc": [{
+                                    "policy": "Policy_EditProviderEntity",
+                                    "context": "Context_All",
+                                    "params": null
+                                }, {
+                                    "policy": "Policy_ReadProviderEntity",
+                                    "context": "Context_All",
+                                    "params": null
+                                }]
+                        }, {
+                            "name": "Privilege_Services",
+                            "pc": [{
+                                    "policy": "Policy_AddProviderService",
+                                    "context": "Context_All",
+                                    "params": null
+                                }]
+                        }]
+                }, {
+                    "name": "User",
+                    "uid": "2825562910376330258",
+                    "privileges": [{
+                            "name": "Privilege_ProviderBundle",
+                            "pc": [{
+                                    "policy": "Policy_ReadProviderEntity",
+                                    "context": "Context_All",
+                                    "params": null
+                                }, {
+                                    "policy": "Policy_EditProviderEntity",
+                                    "context": "Context_Custom",
+                                    "params": "\"{m:'f4f'}\""
+                                }, {
+                                    "policy": "Policy_DeleteProviderEntity",
+                                    "context": "Context_OwnOnly",
+                                    "params": null
+                                }]
+                        }, {
+                            "name": "Privilege_Services",
+                            "pc": []
+                        }]
+                }, {
+                    "name": "Reader",
+                    "uid": "2830639205464409137",
+                    "privileges": []
+                }, {
+                    "name": "Super_admin",
+                    "uid": "2832113246863885375",
+                    "privileges": [{
+                            "name": "Privilege_ProviderBundle",
+                            "pc": [{
+                                    "policy": "Policy_ReadProviderEntity",
+                                    "context": "Context_All",
+                                    "params": null
+                                }, {
+                                    "policy": "Policy_EditProviderEntity",
+                                    "context": "Context_Custom",
+                                    "params": "\"{m:'f4f'}\""
+                                }, {
+                                    "policy": "Policy_DeleteProviderEntity",
+                                    "context": "Context_OwnOnly",
+                                    "params": null
+                                }]
+                        }, {
+                            "name": "Privilege_Services",
+                            "pc": [{
+                                    "policy": "Policy_AddProviderService",
+                                    "context": "Context_All",
+                                    "params": null
+                                }]
+                        }]
+                }, {
+                    "name": "approver_CFO",
+                    "uid": "2834403450555466849",
+                    "privileges": []
+                }, {
+                    "name": "approver_pd",
+                    "uid": "2834403267365045343",
+                    "privileges": []
+                }, {
+                    "name": "approver_pm",
+                    "uid": "2834403178512909406",
+                    "privileges": []
+                }, {
+                    "name": "approver_svp",
+                    "uid": "2834403351829939296",
+                    "privileges": []
+                }],
+            "privileges": [{
+                    "name": "Privilege_ProviderEntity",
+                    "pc": [{
+                            "policy": "Policy_EditProviderEntity",
+                            "context": "Context_All",
+                            "params": null
+                        }, {
+                            "policy": "Policy_ReadProviderEntity",
+                            "context": "Context_All",
+                            "params": null
+                        }]
+                }, {
+                    "name": "Privilege_ProviderBundle",
+                    "pc": [{
+                            "policy": "Policy_ReadProviderEntity",
+                            "context": "Context_All",
+                            "params": null
+                        }, {
+                            "policy": "Policy_EditProviderEntity",
+                            "context": "Context_Custom",
+                            "params": "\"{m:'f4f'}\""
+                        }, {
+                            "policy": "Policy_DeleteProviderEntity",
+                            "context": "Context_OwnOnly",
+                            "params": null
+                        }]
+                }],
+            "pc": [{
+                    "policy": "Policy_EditProviderEntity",
+                    "context": "Context_OwnOnly",
+                    "params": null
+                }, {
+                    "policy": "Policy_DeleteProviderEntity",
+                    "context": "Context_OwnOnly",
+                    "params": null
+                }, {
+                    "policy": "Policy_EditProviderEntity",
+                    "context": "Context_Custom",
+                    "params": "\"{m:'f4f'}\""
+                }, {
+                    "policy": "Policy_AddProviderService",
+                    "context": "Context_Custom",
+                    "params": "\"{m:'f4f'}\""
+                }, {
+                    "policy": "Policy_EditProviderEntity",
+                    "context": "Context_All",
+                    "params": null
+                }, {
+                    "policy": "Policy_ReadProviderEntity",
+                    "context": "Context_All",
+                    "params": null
+                }],
+            "email": "tom@gmail.com",
+            "name": "TOM"
+        }, {
+            "roles": [{
+                    "name": "Super_admin",
+                    "uid": "2832113246863885375",
+                    "privileges": [{
+                            "name": "Privilege_ProviderBundle",
+                            "pc": [{
+                                    "policy": "Policy_ReadProviderEntity",
+                                    "context": "Context_All",
+                                    "params": null
+                                }, {
+                                    "policy": "Policy_EditProviderEntity",
+                                    "context": "Context_Custom",
+                                    "params": "\"{m:'f4f'}\""
+                                }, {
+                                    "policy": "Policy_DeleteProviderEntity",
+                                    "context": "Context_OwnOnly",
+                                    "params": null
+                                }]
+                        }, {
+                            "name": "Privilege_Services",
+                            "pc": [{
+                                    "policy": "Policy_AddProviderService",
+                                    "context": "Context_All",
+                                    "params": null
+                                }]
+                        }]
+                }, {
+                    "name": "approver_pd",
+                    "uid": "2834403267365045343",
+                    "privileges": []
+                }, {
+                    "name": "approver_pm",
+                    "uid": "2834403178512909406",
+                    "privileges": []
+                }],
+            "privileges": [{
+                    "name": "Privilege_ProviderBundle",
+                    "pc": [{
+                            "policy": "Policy_ReadProviderEntity",
+                            "context": "Context_All",
+                            "params": null
+                        }, {
+                            "policy": "Policy_EditProviderEntity",
+                            "context": "Context_Custom",
+                            "params": "\"{m:'f4f'}\""
+                        }, {
+                            "policy": "Policy_DeleteProviderEntity",
+                            "context": "Context_OwnOnly",
+                            "params": null
+                        }]
+                }],
+            "pc": [{
+                    "policy": "Policy_DeleteProviderEntity",
+                    "context": "Context_All",
+                    "params": null
+                }, {
+                    "policy": "Policy_EditProviderEntity",
+                    "context": "Context_OwnOnly",
+                    "params": null
+                }, {
+                    "policy": "Delete",
+                    "context": "Context_All",
+                    "params": null
+                }, {
+                    "policy": "Policy_ReadProviderEntity",
+                    "context": "Context_All",
+                    "params": null
+                }, {
+                    "policy": "Policy_EditProviderEntity",
+                    "context": "Context_Custom",
+                    "params": "\"{m:'f4f'}\""
+                }, {
+                    "policy": "Policy_DeleteProviderEntity",
+                    "context": "Context_OwnOnly",
+                    "params": null
+                }],
+            "email": "mike@gmail.com",
+            "name": "MIKE"
+        }]
+}
